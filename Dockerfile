@@ -8,6 +8,7 @@ RUN apt update && apt upgrade && apt install -y \
     python3 \
     zip \
     build-essential \
+    git \
     libstdc++-arm-none-eabi-newlib \
     libnewlib-arm-none-eabi 
 
