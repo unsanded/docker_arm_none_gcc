@@ -10,5 +10,7 @@ RUN apt update && apt upgrade && apt install -y \
     build-essential \
     git \
     libstdc++-arm-none-eabi-newlib \
-    libnewlib-arm-none-eabi 
+    libnewlib-arm-none-eabi \
+    libtomcrypt1 \
+    libtomcrypt-dev
 
